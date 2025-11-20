@@ -1,6 +1,6 @@
 import './App.css'
 import {useState} from "react";
-import RandomNumber from "./components/Person/RandomNumber.tsx";
+import RandomNumber from "./components/RandomNumber/RandomNumber.tsx";
 
 const App = () => {
     const [numbers, setNumbers] = useState<number[]>([5, 11, 16, 23, 32])
